@@ -5,15 +5,22 @@
   font-family: Arial, Helvetica, sans-serif;
   color: white;
 }
+:root{
+  --color-cuerpo:#3f3e39;
+  --color--principal:#008584;
+  --color--secundario:#006666;
+  --color--texto:#ffff;
+
+}
 body{
-  background-color: #3f3e39;
+  background-color: var(--color-cuerpo);
 }
 .header{
   display: flex;
   width: 100vw;
   height: 10vh;
-  background-color:#093249;
-  border: 2px solid #064f58;
+  background-color:var(--color--principal);
+  border: 2px solid var(--color--secundario);
 }
 .header__logo{
   width: 20vw;
@@ -54,6 +61,24 @@ body{
 } */
 
 main{
-    color: white;
-    font-size: 50px; 
+  color: var(--color--texto);
+  font-size: 20px; 
+}
+
+table{
+  margin: 0 auto;
+  border-collapse: collapse;
+  width: 60%;
+  background-color: var(--color-cuerpo);
+  font-size: larger;
+}
+
+th, td {
+  border: 2px solid var(--color--secundario);
+  padding: 10px;
+  text-align: center;
+}
+
+th{
+  background-color: var(--color--principal);
 }
