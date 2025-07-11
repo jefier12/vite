@@ -3,4 +3,4 @@ export const ProductoController = async () => {
     const info = await llamar.json();
     const db = info.data;
     console.log(db);
-}
+} 

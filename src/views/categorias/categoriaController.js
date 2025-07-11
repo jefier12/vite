@@ -46,8 +46,10 @@ export const CategoriaContoller = async (main) => {
     btnEliminar.textContent = "Eliminar";
     btnEditar.classList.add("boton");
     btnEliminar.classList.add("boton");
+    btnNuevo.classList.add("boton");
     btnEditar.classList.add("editar");
     btnEliminar.classList.add("eliminar");
+    btnNuevo.classList.add("nuevo");
     btnEditar.dataset.id = datos.id;
     btnEliminar.dataset.id = datos.id;
 

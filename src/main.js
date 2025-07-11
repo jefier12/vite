@@ -6,12 +6,10 @@ import { ProductoController } from "./views/productos/productoController";
 let main = document.querySelector('main');
 
 
-
 window.addEventListener('hashchange',async () =>{
     const hash = window.location.hash.slice(1);      
     cargarVistas(hash);
 })
-
 
 
 window.addEventListener('DOMContentLoaded',async () =>{
@@ -21,7 +19,6 @@ window.addEventListener('DOMContentLoaded',async () =>{
     } 
     
 })
-
 
 
 const cargarVistas =  async (hash) =>{
