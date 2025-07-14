@@ -4,7 +4,7 @@ export const CategoriaContoller = async (main) => {
   const db = data.data;
   const container = document.createElement("section");
   const containerNuevo = document.createElement("div")
-  const btnNuevo = document.createElement("button");
+  const btnNuevo = document.createElement("button"); 
   containerNuevo.classList.add("containerNuevo")
   btnNuevo.classList.add("boton");
   btnNuevo.classList.add("nuevo");
